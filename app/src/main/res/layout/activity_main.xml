@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phạm Mạnh Cường"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#020202"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã sinh viên"
+        android:id="@+id/masv"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Họ tên"
+        android:id="@+id/hoten"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên Khoa"
+        android:id="@+id/tenkhoa"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Điểm tin"
+        android:id="@+id/diemtin"
+
+        />
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        >
+        <Button
+            android:id="@+id/Save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+
+            android:background="@drawable/botron"/>
+            />
+        <Button
+            android:id="@+id/Update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sửa"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/botron"
+            />
+        <Button
+            android:id="@+id/Delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xóa"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/botron"            />
+        <Button
+            android:id="@+id/HienThi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hiển Thị"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/botron"
+            />
+
+        <Button
+            android:id="@+id/btnClean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:background="@drawable/botron"
+            android:text="Tim Kiếm" />
+        <Button
+            android:onClick="demo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Json"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/botron"
+            />
+
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv"
+        />
+
+
+</LinearLayout>

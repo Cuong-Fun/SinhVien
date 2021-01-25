@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="horizontal"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <TextView-->
+<!--        android:id="@+id/csid"-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:layout_marginTop="18dp"-->
+<!--        android:background="@drawable/botron"-->
+<!--        android:gravity="center"-->
+<!--        android:hint=""-->
+<!--        android:textSize="30dp" />-->
+    <ImageView
+        android:id="@+id/csid"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/student"
+        android:gravity="center"
+        android:hint=""
+        android:textSize="30dp"/>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/text"
+            android:hint="ID"
+            android:textColor="#232222"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/cshoten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/text"
+            android:hint="Họ Tên"
+            android:textColor="#232222"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/cskhoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/text"
+            android:hint="Nghành"
+            android:textColor="#090909"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/csdiemtin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/text"
+            android:hint="Điểm"
+            android:textColor="#101010"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+</RelativeLayout>
+</LinearLayout>
